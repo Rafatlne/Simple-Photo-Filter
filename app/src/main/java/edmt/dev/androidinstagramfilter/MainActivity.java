@@ -40,7 +40,7 @@ import edmt.dev.androidinstagramfilter.Utils.BitmapUtils;
 
 public class MainActivity extends AppCompatActivity implements FiltersListFragmentListener,EditImageFragmentListener{
 
-    public static String pictureName = "flash.jpg";
+    public static String pictureName = "cat.jpg";
     public static final  int PERMISSION_PICK_IMAGE = 1000;
 
     ImageView img_preview;
