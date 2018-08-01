@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements FiltersListFragme
 
         android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         getSupportActionBar().setTitle("Instagram Filter");
 
         //View
